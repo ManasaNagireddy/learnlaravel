@@ -14,9 +14,14 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/products">Products</a>
-        </li>
+        @auth
+          <li class="nav-item">
+            <a class="nav-link" href="/products">Products</a>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link" href="/admin">Vue</a>
+          </li>
+        @endauth
         <li class="nav-item">
           <a class="nav-link" href="/services">Services</a>
         </li>

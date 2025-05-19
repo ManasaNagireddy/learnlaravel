@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "88970a0117c062eed55fa8728fc43833",
+    "content-hash": "fd1f1dd315cf281b1e9f8e6009b2ee85",
     "packages": [
         {
             "name": "brick/math",
@@ -509,6 +509,40 @@
                 }
             ],
             "time": "2025-03-06T22:45:56+00:00"
+        },
+        {
+            "name": "examyou/rest-api",
+            "version": "12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/examyou/rest-api.git",
+                "reference": "2f74c7f2ad9dd988730ca24d498f6cd40619b8ce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/examyou/rest-api/zipball/2f74c7f2ad9dd988730ca24d498f6cd40619b8ce",
+                "reference": "2f74c7f2ad9dd988730ca24d498f6cd40619b8ce",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "5.6.*|5.7.*|5.8.*|6.*|7.*|8.*|9.*|10.*|11.*|12.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Examyou\\RestAPI\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "RestAPI plugin",
+            "support": {
+                "issues": "https://github.com/examyou/rest-api/issues",
+                "source": "https://github.com/examyou/rest-api/tree/12.0"
+            },
+            "time": "2025-03-07T12:55:15+00:00"
         },
         {
             "name": "fruitcake/php-cors",

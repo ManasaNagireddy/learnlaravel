@@ -9,6 +9,9 @@ use App\Http\Controllers\Auth\AuthenticatedSessionController; // Make sure this 
 Route::get('/', function () {
     return view('welcome');
 })->name('home');
+Route::get('/admin', function () {
+    return view('admin', ['user' => Auth::user()]);
+})->name('admin');
 
 Route::view('/about', 'about');
 Route::view('/contact', 'contact');
